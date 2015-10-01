@@ -12,7 +12,7 @@ class TestDependencies(unittest.TestCase):
 		assert 'pytest' in dists
 		assert 'tox' in dists
 		assert 'sphinx' in dists
-		assert 'Sphinx-PyPI-upload' in dists
+		assert 'sphinx-pypi-upload' in dists
 		assert 'gitchangelog' in dists
 		assert 'awscli' in dists
 		assert 'click' in dists
