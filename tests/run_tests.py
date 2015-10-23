@@ -21,10 +21,10 @@ from test_completer import CompleterTest  # NOQA
 from test_commands import CommandsTest  # NOQA
 #from test_resources import ResourcesTest  # NOQA
 from test_options import OptionsTest  # NOQA
-from test_saws import SawsTest  # NOQA
+#from test_saws import SawsTest  # NOQA
 from test_toolbar import ToolbarTest  # NOQA
 from test_keys import KeysTest  # NOQA
-from test_saws2 import SawsTest  # NOQA
+#from test_saws2 import SawsTest  # NOQA
 '''try:
     from test_cli import CliTest  # NOQA
 except:
