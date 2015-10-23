@@ -6,7 +6,7 @@ def countchars(directory):
 	for name in os.listdir(directory):
 		fp = open(name)
 		for line in fp:
-			n += line
+			n  = 0 + line
 		fp.fclose()
 	return n
 
