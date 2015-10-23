@@ -1,12 +1,12 @@
 import sys, os
 
-# Count the total number of characters for each file in directory.
 def countchars(directory):
 	n = 0
+	p = "for test"
 	for name in os.listdir(directory):
 		fp = open(name)
 		for line in fp:
-			n  = 0 + line
+			n  += line
 		fp.fclose()
 	return n
 
