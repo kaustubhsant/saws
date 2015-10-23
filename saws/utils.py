@@ -40,7 +40,6 @@ class TextUtils(object):
         Yields:
             A generator of prompt_toolkit's Completions.
         """
-        sentence = "for testing pylint"
         word = self._last_token(word).lower()
         for suggestion in self._find_collection_matches(
                 word, collection, fuzzy):
